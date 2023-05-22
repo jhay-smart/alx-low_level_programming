@@ -10,7 +10,7 @@
  *
  * Return: Nothing
  */
-void init_dog(struct dog my_dog, char *name, float age, char *owner)
+void init_dog(struct dog *my_dog, char *name, float age, char *owner)
 {
 	if (my_dog != NULL)
 	{
