@@ -36,7 +36,6 @@ return (NULL);
 new_node->n = n;
 new_node->next = current->next;
 current->next = new_node;
-
 return (new_node);
 }
 
