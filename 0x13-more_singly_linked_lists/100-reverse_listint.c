@@ -21,5 +21,5 @@ current = next;
 }
 
 *head = prev;
-return *head;
+return (*head);
 }
